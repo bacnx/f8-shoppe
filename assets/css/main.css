@@ -1,0 +1,108 @@
+.header {
+  height: 120px;
+  background-image: linear-gradient(0, #fe6433, #f53e2d);
+}
+
+.header__navbar {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 0.2rem;
+}
+
+.header-navbar__list {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  align-items: center;
+}
+
+.header-navbar__item,
+.header-navbar__link {
+  color: var(--white-color);
+  font-size: 1.3rem;
+  font-weight: 300;
+}
+
+.header-navbar__item {
+  display: inline-flex;
+  align-items: center;
+  padding: 0 8px;
+  position: relative;
+}
+
+.header-navbar__item--separate {
+  position: relative;
+}
+
+.header-navbar__item--separate::after {
+  content: '';
+  position: absolute;
+  width: 1px;
+  right: -2px;
+  top: 0;
+  bottom: 0;
+  background-color: #fb9086;
+}
+
+.header-navbar__item--bold {
+  font-weight: 500;
+}
+
+.header-navbar__item:hover .header-install-app {
+  display: block;
+}
+
+.header-install-app {
+  position: absolute;
+  top: calc(100% + 10px);
+  left: 8px;
+  width: 200px;
+  background-color: var(--white-color);
+  border-radius: 3px;
+  padding: 8px;
+  display: none;
+  animation: fadeIn ease-in 0.2s;
+}
+
+.header-install-app::before {
+  content: '';
+  width: 100%;
+  height: 20px;
+  position: absolute;
+  top: -10px;
+  left: 0;
+}
+
+.header-install-app__qr {
+  width: 100%;
+}
+
+.header-install-app__links {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 11px;
+}
+
+.header-install-app__link {
+  
+}
+
+.header-install-app__img {
+  height: 16px;
+}
+
+.header-navbar__link {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.header-navbar__link:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.header__navbar i {
+  font-size: 1.8rem;
+  padding: 0 0.4rem;
+}
