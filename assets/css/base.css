@@ -36,6 +36,20 @@ body {
   flex-wrap: wrap;
 }
 
+.bridge-before-pseudo {
+  position: relative;
+}
+
+.bridge-before-pseudo::before {
+  content: '';
+  width: 100%;
+  height: 20px;
+  position: absolute;
+  top: -10px;
+  left: 0;
+}
+
+/* Animation */
 @keyframes fadeIn {
   from {
     opacity: 0;
