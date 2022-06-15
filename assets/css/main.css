@@ -680,7 +680,7 @@
   width: 50px;
   height: 40px;
   object-fit: cover;
-  border: 1px solid var(--boder-color);
+  border: 1px solid var(--border-color);
 }
 
 .header-cart__info {
@@ -775,12 +775,12 @@
 }
 
 .category__item {
-  /* background-color: transparent; */
-  transition: background-color linear 0.2s;
+  transform: translateX(0px);
+  transition: transform linear 0.2s;
 }
 
 .category__item:hover {
-  background-color: #f0f0f0;
+  transform: translateX(4px);
 }
 
 .category__item--active {
