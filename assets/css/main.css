@@ -60,6 +60,7 @@
   position: absolute;
   top: calc(100% + 10px);
   left: 8px;
+  z-index: 1;
   width: 200px;
   background-color: var(--white-color);
   border-radius: 2px;
