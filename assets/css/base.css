@@ -203,3 +203,36 @@ body {
 .select-input__link:hover {
   color: var(--primary-color);
 }
+
+/* Pagination */
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  margin-top: 56px;
+}
+
+.pagination-item {
+  margin: 0 16px;
+}
+
+.pagination-item__link {
+  display: block;
+  color: #9e9e9e;
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 3rem;
+  padding: 0 16px;
+  text-decoration: none;
+  border-radius: 2px;
+}
+
+.pagination-item__link:hover {
+  opacity: 0.9;
+}
+
+.pagination-item--active .pagination-item__link {
+  color: var(--white-color);
+  background-color: var(--primary-color);
+}
