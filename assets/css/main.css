@@ -1083,3 +1083,76 @@
   line-height: 1.2rem;
   font-weight: 600;
 }
+
+
+/* footer */
+.footer {
+  border-top: 4px solid var(--primary-color);
+}
+
+.footer__container {
+  padding: 24px 0;
+}
+
+.footer__heading {
+  font-size: 1.4rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #999;
+}
+
+.footer__list {
+  list-style: none;
+  padding: 0;
+}
+
+.footer__link {
+  font-size: 1.3rem;
+  font-weight: 300;
+  text-decoration: none;
+  color: #999;
+  line-height: 2.4rem;
+}
+
+.footer__link:hover {
+  color: var(--primary-color);
+}
+
+.footer__icon {
+  font-size: 1.4rem;
+  width: 16px;
+}
+
+.footer__download {
+  display: flex;
+  margin-top: 12px;
+}
+
+.footer__download-qr {
+  width: 80px;
+  object-fit: contain;
+  border: 1px solid var(--border-color);
+  margin-right: 8px;
+}
+
+.footer__download-app {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.footer__download-app-item {
+  height: 20px;
+}
+
+.footer__bottom {
+  background-color: #f5f5f5;
+}
+
+.footer__text {
+  font-size: 1.4rem;
+  color: #999;
+  text-align: center;
+  margin: 0;
+  padding: 12px 0;
+}

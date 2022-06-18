@@ -51,6 +51,12 @@ body {
   width: 20%;
 }
 
+.grid__column-3 {
+  padding-left: 6px;
+  padding-right: 6px;
+  width: 25%;
+}
+
 .grid__column-10 {
   padding-left: 6px;
   padding-right: 6px;
