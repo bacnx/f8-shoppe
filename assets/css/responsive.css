@@ -29,8 +29,12 @@
     display: none;
   }
 
+  .header-filter__list {
+    display: flex;
+  }
+
   .app__container {
-    margin-top: 64px;
+    margin-top: calc(64px + 48px);
   }
 }
 
