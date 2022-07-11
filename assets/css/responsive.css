@@ -34,7 +34,12 @@
   }
 
   .app__container {
-    margin-top: calc(64px + 48px);
+    margin-top: calc(72.7px + 48px);
+    padding-top: 0;
+  }
+
+  .category-mobile {
+    display: block;
   }
 }
 
