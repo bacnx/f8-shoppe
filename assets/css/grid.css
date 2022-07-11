@@ -19,9 +19,17 @@
   margin: 0;
 }
 
+.row.small-gutter {
+  margin: -4px;
+}
+
 .col {
   box-sizing: border-box;
   padding: 12px;
+}
+
+.row.small-gutter > .col {
+  padding: 4px;
 }
 
 .row.no-gutters .col {

@@ -96,6 +96,19 @@
     display: none;
   }
 
+  .product-list {
+    padding: 0 8px;
+    margin-top: 0;
+  }
+
+  .pagination-item {
+    margin: 0 4px;
+  }
+
+  .pagination-item__link {
+    padding: 0 12px;
+  }
+
   @keyframes mobileSearchSideIn {
     from {
       opacity: 0;
