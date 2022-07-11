@@ -389,6 +389,13 @@
   padding: 12px 8px;
 }
 
+.header__mobile-search {
+  color: var(--white-color);
+  font-size: 2.6rem;
+  padding: 4px 8px;
+  display: none;
+}
+
 .header__logo {
   width: 200px;
   padding-right: 32px;
@@ -757,8 +764,8 @@
 }
 
 .header-filter__list {
-  position: fixed;
-  top: 64px;
+  position: absolute;
+  top: 100%;
   left: 0;
   right: 0;
   height: 48px;
