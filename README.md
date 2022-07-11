@@ -3,7 +3,7 @@ Practice HTML/CSS at the end of the [course](https://fullstack.edu.vn/courses/ht
 
 ## Technology
 - HTML/CSS
-- Responsive (doing)
+- Responsive
 
 ## Illustration
 ![alt text for screen readers](/assets/img/description.png)
