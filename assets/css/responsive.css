@@ -67,8 +67,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 0;
-    padding-bottom: 0;
+    padding-top: 6px;
+    padding-bottom: 6px;
   }
 
   .header__mobile-search {
@@ -78,6 +78,8 @@
   .header__logo {
     margin: 0;
     padding: 0;
+    width: 120px;
+    line-height: 0;
   }
 
   .header__cart {
@@ -100,6 +102,20 @@
     animation: mobileSearchSideIn ease-in 0.1s;
     display: none;
   }
+  @keyframes mobileSearchSideIn {
+    from {
+      opacity: 0;
+      top: 75%;
+    }
+    to {
+      opacity: 1;
+      top: 100%;
+    }
+  }
+
+  .app__container {
+    margin-top: calc(52.63px + 48px);
+  }
 
   .product-list {
     padding: 0 8px;
@@ -112,16 +128,5 @@
 
   .pagination-item__link {
     padding: 0 12px;
-  }
-
-  @keyframes mobileSearchSideIn {
-    from {
-      opacity: 0;
-      top: 75%;
-    }
-    to {
-      opacity: 1;
-      top: 100%;
-    }
   }
 }
